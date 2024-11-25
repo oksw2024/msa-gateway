@@ -59,13 +59,8 @@ spring:
            predicates:
              - Path=/api/book/**
 
-         - id: newbook-service
-           uri: http://localhost:9005/
-           predicates:
-             - Path=/api/library/**
-
          - id: library-service
-           uri: http://localhost:9006/
+           uri: http://localhost:9005/
            predicates:
              - Path=/api/libraries/**
 
