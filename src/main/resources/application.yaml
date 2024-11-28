@@ -64,6 +64,11 @@ spring:
            predicates:
              - Path=/api/libraries/**
 
+         - id: favorite-service
+           uri: http://localhost:9006/
+           predicates:
+             - Path=/api/favorites/**
+
          - id: my-react-app
            uri: http://localhost:5173
            predicates:
