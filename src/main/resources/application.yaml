@@ -80,12 +80,12 @@ management:
   endpoints:
     web:
       exposure:
-        include: "*"
+        include: refresh
   endpoint:
     gateway:
       enabled: true
 
 
-jwt:
-  secret: ohseokju@!ohseokju@!ohseokju@!ohseokju@!ohseokju@!
-  accessTokenExpirationTime: 300000
+#jwt:
+#  secret: ohseokju@!ohseokju@!ohseokju@!ohseokju@!ohseokju@!
+#  accessTokenExpirationTime: 1000
