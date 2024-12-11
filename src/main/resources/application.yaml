@@ -41,6 +41,8 @@ spring:
            uri: http://localhost:9001/
            predicates:
              - Path=/api/v1/user/**
+           filters:
+             - JwtAuthFilter
 
          - id: booknote-service
            uri: http://localhost:9002/
